@@ -6,7 +6,7 @@
 #define TAB_ELEMENTS 0
 
 
-#define PLUGIN_UI_URI "urn:mixer_ui"
+#define PLUGIN_UI_URI "https://github.com/brummer10/XMixer_ui"
 
 
 #include "lv2_plugin.h"

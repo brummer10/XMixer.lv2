@@ -9,7 +9,7 @@
 
 ///////////////////////// MACRO SUPPORT ////////////////////////////////
 
-#define PLUGIN_URI "urn:mixer"
+#define PLUGIN_URI "https://github.com/brummer10/XMixer"
 
 #ifndef max
 #define max(x, y) (((x) > (y)) ? (x) : (y))

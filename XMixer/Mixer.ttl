@@ -18,18 +18,18 @@
    a foaf:Person ;
    foaf:name "brummer" .
 
-<urn:mixer>
+<https://github.com/brummer10/XMixer>
    a lv2:Plugin ,
        lv2:MixerPlugin ;
    doap:maintainer <urn:name#me> ;
    doap:name "XMixer" ;
-   lv2:project <urn:mixer> ;
+   lv2:project <https://github.com/brummer10/XMixer> ;
    lv2:requiredFeature urid:map ;
    lv2:optionalFeature lv2:hardRTCapable ;
    lv2:minorVersion 1 ;
    lv2:microVersion 0 ;
 
-guiext:ui <urn:mixer_ui> ;
+guiext:ui <https://github.com/brummer10/XMixer_ui> ;
 
 rdfs:comment """
 4 in 1 channel Mixer
@@ -139,7 +139,7 @@ rdfs:comment """
       lv2:maximum 6.000000 ;
    ] .
 
-<urn:mixer_ui>
+<https://github.com/brummer10/XMixer_ui>
    a guiext:X11UI;
    guiext:binary <Mixer_ui.so> ;
        lv2:extensionData guiext::idle ;
