@@ -145,6 +145,8 @@ void Xmixer::init_dsp_(uint32_t rate)
     db_zero = 20.*log10(0.0000003); // -130db
     power0 = 20.*log10(0.0000003); // -130db
     power1 = 20.*log10(0.0000003); // -130db
+    power2 = 20.*log10(0.0000003); // -130db
+    power3 = 20.*log10(0.0000003); // -130db
 }
 
 // connect the Ports used by the plug-in class
